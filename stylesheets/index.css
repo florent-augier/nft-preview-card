@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+#card {
+    width: 350px;
+    height: 600px;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#image {
+    background-image: url("../images/image-equilibrium.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 300px;
+    border-radius: 8px;
+}
+
+#wrapper-text {
+    margin-top: 20px;
+}
+
+#wrapper-text h1 {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 28px;
+}
+
+#wrapper-text p {
+    margin-top: 20px;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row p img {
+    margin-right: 8px;
+}
+
+#wrapper-text .row p:first-child {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+#wrapper-text .row p:last-child {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+#wrapper-text .row p:last-child::before {
+    content: "";
+    background: url(../images/icon-clock.svg) no-repeat;
+    background-size: 1rem;
+    background-position-x: center;
+    background-position-y: center;
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    text-align: center;
+    margin-right: 0.5rem;
+    vertical-align: top;
+
+}
+
+
+hr {
+    margin: 20px 0;
+    border: 0.2px solid rgba(139,172,218, 0.2);
+    
+}
+
+
+#card-footer {
+    display: flex;
+    align-items: center;
+}
+
+#wrapper-text #card-footer {
+    font-size: 16px;
+}
+
+
+
+#card-footer::before {
+    content: "";
+    background: url("../images/image-avatar.png") no-repeat;
+    background-size: 2rem;
+    background-position-x: center;
+    background-position-y: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    margin-right: 1rem;
+    vertical-align: bottom;
+}
+
+#card-footer span {
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    
+}
