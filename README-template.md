@@ -33,8 +33,8 @@ The screenshot of project.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github url](https://github.com/florent-augier/nft-preview-card)
+- Live Site URL: [You can go here](https://nft-card-challenge-flowww.netlify.app)
 
 ## My process
 
